@@ -1,0 +1,219 @@
+:root {
+  --bg-primary-color: #0c3d48;
+  --bg-secondary-color: #a4bf9d;
+  --bg-yellow: #ffea4f;
+  --bg-green: #0dffa8;
+  --bg-blue: #ffdafc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: var(--bg-primary-color);
+}
+header {
+  padding: 12px 104px;
+  margin: 12px;
+  border-radius: 12px;
+  background-color: #fff;
+  position: sticky;
+  top: 12px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 80px;
+}
+
+nav ul li a {
+  color: var(--bg-primary-color);
+}
+.btn-login {
+  border-radius: 4px;
+  background-color: var(--bg-secondary-color);
+  box-shadow: 3px 3px #000;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  font-size: 600;
+}
+.btn-started {
+  border-radius: 4px;
+  background-color: var(--bg-secondary-color);
+  box-shadow: 3px 3px #000;
+  padding: 8px 16px;
+  border: 1px solid #000;
+  font-size: 600;
+  margin-top: 16px;
+}
+
+.btn-started:active {
+  background-color: #000;
+  box-shadow: 0px 0px #000;
+  color: var(--bg-secondary-color);
+  border: 1px solid transparent;
+}
+.btn-login:active {
+  background-color: #000;
+  box-shadow: 0px 0px #000;
+  color: var(--bg-secondary-color);
+  border: 1px solid transparent;
+}
+.hero-section {
+  color: var(--bg-primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  margin: 12px;
+  border-radius: 12px;
+  /* background-color: azure; */
+  /* background: var(--bg-green); */
+  background-image: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+  padding: 0px 104px;
+}
+.hero-left {
+  max-width: 490px;
+}
+.hero-left h1 {
+  font-size: 62px;
+  max-width: 500px;
+  margin-bottom: 16px;
+  letter-spacing: -0.025em;
+}
+.hero-left > p {
+  line-height: 1.2rem;
+  letter-spacing: 0.05em;
+}
+.course-section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0px 12px;
+}
+
+.card-course-web {
+  height: 40vh;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--bg-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-course-data {
+  height: 40vh;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--bg-secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-course-ui {
+  height: 40vh;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--bg-yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-text h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.card-text > p {
+  color: var(--bg-primary-color);
+}
+.btn-learn {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 4px 12px;
+  background-color: #000;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 4px;
+  border: 1px solid var(--bg-primary-color);
+  border-radius: 1000px;
+  padding: 4px 8px;
+  font-size: 10px;
+  margin-bottom: 16px;
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  content: " ";
+  background-color: var(--bg-primary-color);
+  border-radius: 1000px;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.event-section {
+  /* background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%); */
+  /* height: 40vh; */
+  /* width: 100%; */
+  margin: 12px;
+  display: flex;
+  gap: 12px;
+}
+.event-content {
+  display: flex;
+  /* align-items: center; */
+  gap: 40px;
+  justify-content: space-between;
+}
+.event-content > img {
+  width: 40%;
+  object-fit: cover;
+}
+.card-event {
+  border-radius: 12px;
+  background-color: var(--bg-green);
+  padding: 20px;
+  width: 100%;
+}
+
+.event-text > p {
+  max-width: 400px;
+  margin: 12px 0px;
+  font-size: 14px;
+}
+.event-text > h3 {
+  font-size: 28px;
+  margin-top: 40px;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
