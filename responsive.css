@@ -1,0 +1,148 @@
+@media screen and (max-width: 600px) {
+  header {
+    padding: 12px 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  .hero-section {
+    padding: 0px 20px;
+  }
+  .hero-left > h1 {
+    font-size: 40px;
+  }
+  .hero-section > img {
+    display: none;
+  }
+  .course-section {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .card-text > p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .event-section {
+    flex-direction: column;
+  }
+  .event-text > p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .event-text > h3 {
+    font-size: 24px;
+  }
+
+  .graph {
+    position: absolute;
+    bottom: 240px;
+    right: -240px;
+  }
+  .graph2 {
+    position: absolute;
+    top: 240px;
+    /* bottom: 40px; */
+    left: -50px;
+  }
+  .graph2 > img {
+    /* height: 40vh; */
+    width: 40%;
+    border-radius: 12px;
+  }
+  .graph > img {
+    width: 40%;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 12px 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  .hero-section {
+    padding: 0px 20px;
+    height: 50vh;
+  }
+  .hero-left > h1 {
+    font-size: 40px;
+  }
+  .hero-section > img {
+    display: none;
+  }
+  .course-section {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  /* .card-course-web {
+    height: 25vh;
+  }
+  .card-course-data {
+    height: 25vh;
+  }
+  .card-course-ui {
+    height: 25vh;
+  } */
+  .card-text > p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .event-section {
+    flex-direction: column;
+  }
+  .event-text > p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .event-text > h3 {
+    font-size: 24px;
+  }
+
+  .graph {
+    position: absolute;
+    bottom: 240px;
+    right: -240px;
+  }
+  .graph2 {
+    position: absolute;
+    top: 240px;
+    /* bottom: 40px; */
+    left: -50px;
+  }
+  .graph2 > img {
+    /* height: 40vh; */
+    width: 40%;
+    border-radius: 12px;
+  }
+  .graph > img {
+    width: 40%;
+    border-radius: 12px;
+  }
+  .testimoni-section {
+    padding: 20px;
+  }
+  .header-testimoni {
+    max-width: fit-content;
+  }
+  .card-test-container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .none {
+    display: none;
+  }
+  .btn-arrow-left {
+    left: -15px;
+  }
+  .btn-arrow-right {
+    right: -15px;
+  }
+}
