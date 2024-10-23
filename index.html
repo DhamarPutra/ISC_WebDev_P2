@@ -14,21 +14,23 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
   <body>
+    <!-- navigation -->
     <header>
       <nav>
         <h1>Hello</h1>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Course</a></li>
-          <li><a href="">Event</a></li>
-          <li><a href="">Testimoni</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#course">Course</a></li>
+          <li><a href="#event">Event</a></li>
+          <li><a href="#testi">Testimoni</a></li>
         </ul>
         <button class="btn-login">Login</button>
       </nav>
     </header>
+
     <main>
       <!-- hero section -->
-      <section class="hero-section">
+      <section class="hero-section" id="home">
         <div class="hero-left">
           <div class="info">
             <div class="circle"></div>
@@ -46,7 +48,7 @@
       </section>
 
       <!-- course section -->
-      <section class="course-section">
+      <section class="course-section" id="course">
         <div class="card-course-web">
           <box-icon name="code-block" class="icon" color="#000"></box-icon>
           <div class="card-text">
@@ -108,7 +110,7 @@
       </section>
 
       <!-- Event section -->
-      <section class="event-section">
+      <section class="event-section" id="event">
         <div class="card-event">
           <div class="event-content">
             <img src="./compe.png" alt="" />
@@ -125,7 +127,6 @@
                 Teknologi dan Manajemen Digital.”
               </p>
               <button class="btn-login">Daftar Sekarang</button>
-
             </div>
           </div>
         </div>
@@ -148,6 +149,27 @@
               <button class="btn-login">Daftar Sekarang</button>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- Testimoni section -->
+      <section class="testimoni-section" id="testi"></section>
+
+      <!-- CTA Join -->
+      <section class="cta-section">
+        <div class="cta-content">
+          <h2>Join ISC Now</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            esse qui laborum quia quod, nulla voluptatum dignissimos placeat.
+          </p>
+          <button class="btn-login">Gabung Sekarang</button>
+        </div>
+        <div class="graph2">
+          <img src="./graph2.png" alt="graph2" />
+        </div>
+        <div class="graph">
+          <img src="./graph.png" alt="graph" />
         </div>
       </section>
     </main>

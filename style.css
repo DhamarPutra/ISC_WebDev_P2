@@ -13,6 +13,8 @@
   font-family: "Archivo", sans-serif;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -208,6 +210,67 @@ nav ul li a {
   font-size: 28px;
   margin-top: 40px;
 }
+
+.testimoni-section {
+  height: 60vh;
+  background-color: white;
+  margin: 0px 12px;
+  border-radius: 12px;
+}
+
+.cta-section {
+  height: 40vh;
+  /* background-image: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-yellow);
+  margin: 12px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.cta-content {
+  text-align: center;
+}
+.cta-content > p {
+  max-width: 500px;
+  margin: 20px 0px;
+  color: var(--bg-primary-color);
+}
+.cta-content >  h2 {
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+.graph {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.graph2 {
+  position: absolute;
+  top: 120px;
+  /* bottom: 40px; */
+  left: -80px;
+}
+.graph2 > img {
+  /* height: 40vh; */
+  width: 70%;
+  border-radius: 12px;
+}
+.graph > img {
+  height: 40vh;
+  border-radius: 12px;
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  height: 60vh;
+  background-color: white;
+  margin: 0px 12px 12px 12px;
+  border-radius: 12px;
+}
+
 @keyframes pulse {
   0%,
   100% {
