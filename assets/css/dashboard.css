@@ -1,0 +1,39 @@
+body {
+  font-family: "Archivo", sans-serif;
+  background-color: #f4f6f9;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #0c3d48;
+  color: white;
+  padding-top: 20px;
+  width: 250px;
+}
+
+.sidebar .nav-link {
+  color: #cfd8dc;
+}
+
+.sidebar .nav-link:hover {
+  color: #ffffff;
+  background-color: #495057;
+}
+
+.content {
+  margin-left: 0px;
+  padding: 20px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.status-active {
+  color: #28a745;
+}
+
+.status-inactive {
+  color: #dc3545;
+}
