@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./responsive.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
   <body>
@@ -25,7 +25,7 @@
           <li><a href="#event">Event</a></li>
           <li><a href="#testi">Testimoni</a></li>
         </ul>
-        <button class="btn-login">Login</button>
+        <a href="./pages/login.html" class="btn-login">Login</a>
       </nav>
     </header>
 
@@ -46,7 +46,7 @@
           <!-- <button class="btn-started">Get Started</button> -->
         </div>
         <img
-          src="./assets/hero.png"
+          src="./assets/img/hero.png"
           style="object-fit: cover"
           alt=""
           width="50%"
@@ -119,7 +119,7 @@
       <section class="event-section" id="event">
         <div class="card-event">
           <div class="event-content">
-            <img src="./assets/compe.png" alt="" />
+            <img src="./assets/img/compe.png" alt="" />
             <div class="event-text">
               <div class="info">
                 <div class="circle"></div>
@@ -139,7 +139,7 @@
 
         <div class="card-event">
           <div class="event-content">
-            <img src="./assets/work.png" alt="" />
+            <img src="./assets/img/work.png" alt="" />
             <div class="event-text">
               <div class="info">
                 <div class="circle"></div>
@@ -168,14 +168,13 @@
           </p>
         </div>
         <div class="card-test-container">
-          
           <div class="btn-arrow-left">
             <box-icon name="left-arrow-alt" color="black"></box-icon>
           </div>
 
-          <div class="testi-card ">
+          <div class="testi-card">
             <div class="testi-head">
-              <img src="./assets/compe.png" alt="profile" width="50px" />
+              <img src="./assets/img/compe.png" alt="profile" width="50px" />
               <div>
                 <h5>Komang gaming</h5>
                 <p>Web Development</p>
@@ -190,7 +189,7 @@
           </div>
           <div class="testi-card none">
             <div class="testi-head">
-              <img src="./assets/compe.png" alt="profile" width="50px" />
+              <img src="./assets/img/compe.png" alt="profile" width="50px" />
               <div>
                 <h5>Komang gaming</h5>
                 <p>Data Science</p>
@@ -205,7 +204,7 @@
           </div>
           <div class="testi-card none">
             <div class="testi-head">
-              <img src="./assets/compe.png" alt="profile" width="50px" />
+              <img src="./assets/img/compe.png" alt="profile" width="50px" />
               <div>
                 <h5>Komang gaming</h5>
                 <p>Web Development</p>
@@ -224,7 +223,7 @@
           </div>
           <!-- <div class="testi-card">
             <div class="testi-head">
-              <img src="./assets/compe.png" alt="profile" width="50px" />
+              <img src="./assets/img/compe.png" alt="profile" width="50px" />
               <div>
                 <h5>Komang gaming</h5>
                 <p>UI/UX</p>
@@ -248,17 +247,40 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
             esse qui laborum quia quod, nulla voluptatum dignissimos placeat.
           </p>
-          <button class="btn-login">Gabung Sekarang</button>
+          <a href="./pages/register.html" class="btn-login">Gabung Sekarang</a>
         </div>
         <div class="graph2">
-          <img src="./assets/graph2.png" alt="graph2" />
+          <img src="./assets/img/graph2.png" alt="graph2" />
         </div>
         <div class="graph">
-          <img src="./assets/graph2.png" alt="graph" />
+          <img src="./assets/img/graph2.png" alt="graph" />
         </div>
       </section>
     </main>
-    <footer></footer>
-    <script src="./script.js"></script>
+    <footer>
+      <div class="collaborator">
+        <h2>Collaborator</h2>
+        <div class="profile">
+          <img src="./assets/img/collaborator/daril.png" alt="daril" />
+          <h4>Daril</h4>
+          <span>Front-End Navigator</span>
+        </div>
+        <div class="profile">
+          <img src="./assets/img/collaborator/ari.png" alt="ari" />
+          <h4>Ari</h4>
+          <span>Access Engineer</span>
+        </div>
+        <div class="profile">
+          <img src="./assets/img/collaborator/salsa.png" alt="salsa" />
+          <h4>Salsa</h4>
+          <span>Dashboard Designer</span>
+        </div>
+        <div class="profile">
+          <img src="./assets/img/collaborator/damar.png" alt="damar" />
+          <h4>Damar</h4>
+          <span>JavaScript Developer</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
