@@ -17,7 +17,12 @@
   .course-section {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-
+  .mobile {
+    display: none;
+  }
+  .btn-menu {
+    display: block;
+  }
   .card-text > p {
     overflow: hidden;
     display: -webkit-box;
@@ -56,6 +61,12 @@
   .graph > img {
     width: 40%;
     border-radius: 12px;
+  }
+  .collaborator {
+    padding: 40px 20px;
+  }
+  .collab-subcontainer {
+    flex-direction: column;
   }
 }
 
