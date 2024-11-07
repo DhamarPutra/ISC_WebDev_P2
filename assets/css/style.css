@@ -140,7 +140,7 @@ nav ul li a {
   height: 40vh;
   padding: 20px;
   border-radius: 12px;
-  background-color: var(--bg-secondary-color);
+  background-color: var(--bg-blue);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -149,7 +149,7 @@ nav ul li a {
   height: 40vh;
   padding: 20px;
   border-radius: 12px;
-  background-color: var(--bg-yellow);
+  background-color: var(--bg-blue);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -201,12 +201,8 @@ nav ul li a {
 }
 
 .event-section {
-  /* background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%); */
-  /* height: 40vh; */
-  /* width: 100%; */
   margin: 12px;
   display: flex;
-  /* flex-direction: column; */
   gap: 12px;
 }
 .event-content {
@@ -255,7 +251,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--bg-yellow);
+  background-color: var(--bg-blue);
   margin: 12px;
   border-radius: 12px;
   position: relative;
@@ -350,13 +346,59 @@ nav ul li a {
   max-width: 400px;
   margin-top: 16px;
 }
+
+.collaborator {
+  background-color: var(--bg-green);
+  padding: 40px;
+  margin: 12px;
+  border-radius: 12px;
+}
+.collaborator > h2 {
+ text-align: center;
+ margin-bottom: 40px;
+ color: #000;
+ font-size: 32px;
+}
+
+.collab-subcontainer {
+  display: flex;
+  justify-content: space-between;
+  /* overflow-x: hidden; */
+  gap: 16px;
+}
+.profile {
+  padding: 12px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid var(--bg-primary-color);
+  box-shadow: 8px 8px var(--bg-primary-color);
+}
+
+.profile > h4 {
+  font-size: 20px;
+  margin: 4px 0px;
+}
+
+.profile > img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.btn-container-collab {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
 footer {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  height: 60vh;
+  /* display: grid; */
+  /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
+  /* height: 60vh; */
+  padding: 8px;
   background-color: white;
   margin: 0px 12px 12px 12px;
-  border-radius: 12px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 @keyframes pulse {
